@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function class</title>
+</head>
+
+<body>
+    <h1>this is userdefined function based view</h1>
+    <form method="post">
+        {%csrf_token%}
+    <h1>Are you sure delete for{{form.name}}</h1>
+        <input type="submit">
+    </form>
+
+
+
+
+    <!-- {%if res%}
+    <table border="2">
+
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>phone</th>
+        </tr>
+        <tr>
+            <td>{{res.id}}</td>
+            <td>{{res.name}}</td>
+            <td>{{res.email}}</td>
+            <td>{{res.phone}}</td>
+        </tr>
+        {%else%}
+        <h1>no data found</h1>
+        {%endif%} -->
+</body>
+
+</html>
